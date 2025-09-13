@@ -1,4 +1,4 @@
-sudo apt update && sudo apt upgrade -y
+```sudo apt update && sudo apt upgrade -y
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 source ~/.bashrc
@@ -64,3 +64,4 @@ server {
 sudo ln -s /etc/nginx/sites-available/ecom-app /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
+'''
